@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --hero-background: url("https://foodhub.modeltheme.com/wp-content/uploads/2020/02/foodhub-slider-main-food-v4.jpg?id=20741");
+  --color-white: #f3f3f3;
+  --color-props: #7cc71a;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero_section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    var(--hero-background);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.recipe_section {
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ingredients-list-item {
+  border-style: dashed;
+  border-width: 1px;
+}
+
+.ingredients-list-item input {
+  padding: 15px;
+}
+
+.ingredients-list-item input:checked {
+  background-color: var(--color-props);
+}
+
+.btn-special {
+  background-color: var(--color-props) !important;
+}
+
+.text-special {
+  color: var(--color-props) !important;
+}
+
+.bg-special {
+  background-color: var(--color-props) !important;
+}
+
+.popular-card {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.catalog-card {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hr {
+  border-color: var(--color-props);
+  border-style: dashed;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-props);
+}
